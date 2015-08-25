@@ -37,7 +37,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mplayer"
-            android:id="@+id/button2" />
+            android:id="@+id/button2"
+            android:onClick="startMultiplayer"/>
 
         <Button
             android:layout_width="wrap_content"
