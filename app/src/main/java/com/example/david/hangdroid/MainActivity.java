@@ -21,4 +21,16 @@ public class MainActivity extends Activity {
 
         startActivity(myIntent);
     }
+
+    public void startMultiplayer(View v){
+        Intent myIntent = new Intent(this, MultiplayerActivity.class);
+
+        startActivity(myIntent);
+    }
+
+    public void openScores(View v){
+        Intent myIntent = new Intent(this, ScoresActivity.class);
+
+        startActivity(myIntent);
+    }
 }

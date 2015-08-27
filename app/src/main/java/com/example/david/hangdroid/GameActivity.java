@@ -132,6 +132,7 @@ public class GameActivity extends Activity {
                 Intent gameOver = new Intent(this, GameOverActivity.class);
                 gameOver.putExtra("POINTS", points);
                 startActivity(gameOver);
+                finish();
         }
     }
 
