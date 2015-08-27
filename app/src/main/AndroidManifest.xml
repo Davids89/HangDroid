@@ -32,6 +32,10 @@
             android:name=".GameMultiActivity"
             android:label="@string/title_activity_game" >
         </activity>
+        <activity
+            android:name=".ScoresActivity"
+            android:label="@string/title_activity_scores" >
+        </activity>
     </application>
 
 </manifest>

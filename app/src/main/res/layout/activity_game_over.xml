@@ -28,14 +28,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save Score"
-            android:id="@+id/button4"
-            android:onClick="introduceLetter" />
+            android:id="@+id/buttonSave"
+            android:onClick="saveScore" />
 
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:hint="INSERT YOUR NAME"
-            android:id="@+id/editTextLetter"
+            android:id="@+id/editTextName"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
     </LinearLayout>

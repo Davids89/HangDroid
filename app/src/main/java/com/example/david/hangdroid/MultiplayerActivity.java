@@ -21,6 +21,9 @@ public class MultiplayerActivity extends Activity {
         Intent myIntent = new Intent(this, GameMultiActivity.class);
 
         myIntent.putExtra("WORD", wordIntroduced.getText().toString());
+
+        wordIntroduced.setText("");
+
         startActivity(myIntent);
     }
 }
