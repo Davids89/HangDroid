@@ -1,0 +1,1 @@
+Juego del ahorcado simple como ejemplo de aplicación Android
